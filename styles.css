@@ -237,6 +237,12 @@
     width: 47%;
   }
 }
+@media screen and (max-width: 992px) {
+  .src{
+    width:100%;
+    margin-top: 6vh;
+  }
+}
 
 @media screen and (max-width: 450px) {
   .mission_box {
