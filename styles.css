@@ -3,6 +3,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Akaya Telivigala", cursive;
+    
   }
   
   html {
@@ -33,6 +35,9 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
+  .navbar{
+    background: rgba(102, 51, 153, 0.637);
+  }
   
  
   .section_heading {
@@ -52,9 +57,19 @@
     background: rgba(102, 51, 153, 0.637);
   }
 .logo-img{
-    width: 40%;
+    width: 50%;
     border: 5px solid rgba(102, 51, 153, 0.637);
     box-align:left;
+    border-radius: 20px;
+}
+.navbar-nav{
+  font-size: 1.1rem;
+  padding:2px;
+}
+.navbar-nav a:hover{
+  background-color:rgba(102, 51, 153, 0.637);
+  border-radius: 30px;
+  color:black;
 }
 
 
@@ -90,6 +105,16 @@
   align-items: center;
   justify-content: center;
 }
+.aboutus-para{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  padding: 100px;
+  
+}
 
 .banner_heading {
   font-family: "Akaya Telivigala", cursive;
@@ -122,7 +147,7 @@
   padding: 30px 20px;
   background:  rgba(102, 51, 153, 0.637);
   text-align: center;
-  border-radius: 3px;
+  border-radius: 50px;
   box-shadow: 0px 1px 3px grey;
   display: flex;
   flex-direction: column;
@@ -142,7 +167,7 @@
   padding: 15px;
   border: 1px solid rgba(102, 51, 153, 0.637);
   background: rgba(255, 255, 255, 0.911);
-  border-radius: 50%;
+  border-radius: 60%;
 }
 
 .mission_box .mission_item img {
@@ -176,8 +201,9 @@
 
 .contact_form input,
 .contact_form textarea {
-  border-radius: 0;
+  border-radius: 30px;
   border: 1px solid lightgrey;
+  
 }
 
 .contact_form input:invalid,
@@ -194,6 +220,7 @@
   letter-spacing: 1px;
   border: 1px solid purple;
   background-color:rgba(102, 51, 153, 0.637);
+  border-radius:30px ;
 }
 
 .contact_map {
@@ -237,12 +264,6 @@
     width: 47%;
   }
 }
-@media screen and (max-width: 992px) {
-  .src{
-    width:100%;
-    margin-top: 6vh;
-  }
-}
 
 @media screen and (max-width: 450px) {
   .mission_box {
@@ -258,7 +279,17 @@
     width: 42%;
   }
 }
-
+@media screen and (max-width: 992px) {
+  .src{
+    width:100%;
+    margin-top: 6vh;
+  }
+}
+@media screen and (max-width: 992px) {
+  .navbar-nav{
+    text-align: center;
+  }
+}
 
 
 @media screen and (max-width: 992px) {
