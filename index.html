@@ -26,6 +26,9 @@
             <a class="nav-link" href="#donate">Home</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#aboutus">About Us</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#Mission">Our Mission</a>
           </li>
           <li class="nav-item">
@@ -39,7 +42,7 @@
     <div class="banner_box">
         <img src="./img/1.jpg" alt="Banner Image" />
         <div class="overlay">
-            <div data-aos="fade-up">
+            <div >
                 <h5 class="banner_heading">One Small Step Can <br /> Bring Happiness To Someone's Face</h5>
                 <p class="banner_text">“Always have a willing hand to help someone,
                     <br />
@@ -47,7 +50,7 @@
                     <br />
                     <span class="banner_text_author">– Roy T. Bennett</span>
                 </p>
-                <!-- <button id="rzp-button1">Pay</button> -->
+                
                 <form>
                   <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_Gkop3vCNIWVzLm" async> 
                 </script>
@@ -56,6 +59,27 @@
         </div>
     </div>
 </main>
+<section id="aboutus">
+  <div class="container pb-4" id="aboutus">
+      <h2 class="section_heading" >
+          <span>About Us</span>
+          <span></span>
+      </h2>
+      <div class="container-fluid pb-4">
+        <div class="row pt-3" id="contact_section">
+          <div class="col-md-6 order-md-last order-first mt-4">
+            <img src="./img/aboutus.jpg" alt="contact us" class="src" load="lazyload">
+          </div>
+          <div class="col-md-6 order-md-last order-first mt-4">
+            <p class="aboutus-para">
+              As we all know ,Everyone at some point of time needs help,<br>
+              Little Things is a group of enthusiastic people with a motive of bringing smile to someone's face and helping others as much as 
+              they can.<br>We provide help to extremely needy and poor people. 
+            </p>
+          </div>
+        </div>
+      </div>
+
 <section id="mission">
   <div class="container pb-4" id="Mission">
       <h2 class="section_heading" >
@@ -66,7 +90,7 @@
       <div class="container mission_box">
           <div class="mission_item" id="item1" >
               <div class="mission_img_box">
-                <i class="icon fas fa-check-circle fa-4x"></i>
+                <img src="./img/checked.svg" alt="tick-img">
               </div>
               <div class="mission_content">
                   <p>Help Each & Every Needy and Poor People</p>
@@ -74,7 +98,7 @@
           </div>
           <div class="mission_item" id="item2" >
               <div class="mission_img_box">
-                <i class="icon fas fa-bullseye fa-4x"></i>
+                <img src="./img/concentric-circles.svg" alt="goal-img">
               </div>
               <div class="mission_content">
                   <p>Increase Our Reach to Every Street In India</p>
@@ -82,7 +106,7 @@
           </div>
           <div class="mission_item" id="item3" data-aos="fade-left">
               <div class="mission_img_box">
-                <i class="icon fas fa-heart fa-4x"></i>
+                <img src="./img/like.svg" alt="love-img">
               </div>
               <div class="mission_content">
                   <p>Bring Smile to Faces of Poor & Needy People</p>
@@ -119,7 +143,7 @@
                               <input type="email" class="form-control" id="contactEmail" required />
                           </div>
                           <div class="mb-4" >
-                              <label for="contactSubject" class="form-label">Subject</label>
+                              <label for="contactSubject" class="form-label">Your Number</label>
                               <input type="text" class="form-control" id="contactSubject" required />
                           </div>
                           <div class="mb-4" >
